@@ -3,12 +3,13 @@ package ex;
 import java.util.Random;
 
 public class Sword {
-    int damage;
+    int sword;
 
-    public void dealDamage() {
-        int randomDamage = (int) (5 +  (Math.random() * 30));
-        damage=randomDamage;
-        System.out.println(damage);
+    public int dealDamage() {
+        int randomDamage  = (int) (5 +  (Math.random() * 30));
+        sword = randomDamage;
+        System.out.println(sword);
+        return sword;
     }
 }
 
