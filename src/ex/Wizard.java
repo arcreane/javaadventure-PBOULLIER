@@ -1,10 +1,11 @@
 package ex;
 
 public class Wizard {
-    int health = 200;
+    int health ;
 
     public void dealDamage(){
-        System.out.println("Le Sorcier a encore" + health + "points de vie");
+        Healthpoint health = new Healthpoint();
+        System.out.println("Le Sorcier a encore" + health.healthW + "points de vie");
     }
 }
 
