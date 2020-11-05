@@ -1,7 +1,5 @@
 package ex;
 
-import java.util.Random;
-
 public class Sword {
     int sword;
 

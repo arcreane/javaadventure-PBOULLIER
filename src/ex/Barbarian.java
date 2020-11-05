@@ -25,7 +25,7 @@ public class Barbarian {
 
             String userInput = sc.nextLine();
 
-            if (userInput.contentEquals("Sword"));{
+            if(userInput.contentEquals("Sword")){
             health.healthB = health.healthB - weapon.sword;
             System.out.println("Vous avez infligé -" +weapon.sword+ "points de vie.");
             System.out.println("Il reste "+ health.healthB + "au Barbare.");
@@ -39,7 +39,7 @@ public class Barbarian {
                 System.out.println("Vous avez gagné et accédez à la salle suivante");
             }
             else if (health.healthA ==0){
-                System.out.println("Vou avez perdu, z'êtes nul GAME OVER");
+                System.out.println("Vous avez perdu, z'êtes nul GAME OVER");
             }
 
         }
