@@ -1,5 +1,7 @@
 package ex;
 
+//Classe aventurier en cours de dévellopement
+
 public class Adventurer {
 
 

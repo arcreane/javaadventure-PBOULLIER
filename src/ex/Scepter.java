@@ -1,5 +1,6 @@
 package ex;
 
+// Arme magique commune à l'aventurier et au Wizard
 public class Scepter {
     int scepter;
 

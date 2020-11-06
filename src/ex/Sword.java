@@ -1,5 +1,6 @@
 package ex;
 
+// Arme physique commune au Barbare et à l'aventurier
 public class Sword {
     int sword;
 

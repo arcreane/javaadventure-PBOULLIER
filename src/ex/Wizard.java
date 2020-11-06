@@ -2,6 +2,10 @@ package ex;
 
 import java.util.Scanner;
 
+// class Wizard avec dévellopement d'un combat contre lui
+// appeler méthode Scepter
+// gestion de l'attaque + auto hit si mauvaise entrée utilisateur.
+
 public class Wizard {
     int health ;
 
