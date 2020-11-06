@@ -18,6 +18,4 @@ public class Room {
 
 }
 
-
-// créer un sorcier
 // créer fonction random choice

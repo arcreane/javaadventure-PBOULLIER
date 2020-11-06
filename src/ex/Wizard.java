@@ -9,8 +9,7 @@ import java.util.Scanner;
 public class Wizard {
 
     int healthw;
-    Scepter scepterw; // nouvelle épée propre au barbare
-
+    Scepter scepterw; // nouvelle Sceptre propre au wizard
     Wizard(){
         scepterw = new Scepter();
         healthw = 20;
