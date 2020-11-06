@@ -7,11 +7,25 @@ import java.util.Scanner;
 // gestion de l'attaque + auto hit si mauvaise entrée utilisateur.
 
 public class Wizard {
-    int health ;
 
-    public void dealDamage(){
+    int healthw;
+    Scepter scepterw; // nouvelle épée propre au barbare
 
-        Scanner sc = new Scanner(System.in);
+    Wizard(){
+        scepterw = new Scepter();
+        healthw = 20;
+        }
+
+    public boolean isalive() {
+        return healthw > 0;
+    }
+
+    public void fight(Adventurer adventurer) {
+        adventurer.managehealthstatus(scepterw.dealDamage());
+        }
+}
+
+       /*Scanner sc = new Scanner(System.in);
 
         Healthpoint health = new Healthpoint();
         Scepter weapon = new Scepter();
@@ -45,5 +59,4 @@ public class Wizard {
         }
         while (health.healthW !=0 &&health.healthA !=0);
     }
-}
-
+} */
